@@ -132,6 +132,20 @@ n
 ~~~
 {: .output}
 
+~~~
+word = 'oxygen'
+for char in word:
+    print(char)
+In the above code, how many times is the loop repeated . 
+A. 3 - probably a guess, indicative of confusion
+B.4 - thinks 'word' is subject of print
+C. 5- possible confusion about index starting at 0
+D.6  - probably understands the loop process
+~~~
+{: .python}
+
+~~~
+
 The improved version uses a [for loop]({{ page.root }}/reference/#for-loop)
 to repeat an operation---in this case, printing---once for each thing in a sequence.
 The general form of a loop is:
